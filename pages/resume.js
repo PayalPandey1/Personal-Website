@@ -1,15 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
 export default function Resume() {
   return (
-    <div>
+    <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
       <div style={{ textAlign: 'center' }}>
         <b>Payal Pandey</b>
         <p>
           <b>Email:&nbsp;</b>
           <a href="mailto:payalpandey767@gmail.com">payalpandey767@gmail.com</a>
-          &nbsp;|&nbsp;<b>Tel:&nbsp;</b>+91-9140162347&nbsp;|&nbsp;
+          &nbsp;|&nbsp;
           <b>Github:&nbsp;</b>
           <a href="https://github.com/PayalPandey1">
             https://github.com/PayalPandey1
@@ -20,6 +19,7 @@ export default function Resume() {
       <br />
       <b>SUMMARY</b>
       <br />
+      <br />
       Working at Reliance Jio as a Software Engineer in JioCloud team, Mumbai.
       <br />
       <br />
@@ -27,10 +27,9 @@ export default function Resume() {
       <br />
       <table
         border="1"
-        cellpadding="3"
-        cellspacing="0"
-        width="1000px"
-        style={{ 'border-collapse': 'collapse' }}
+        cellPadding="3"
+        cellSpacing="1"
+        style={{ borderCollapse: 'collapse', maxWidth: '100%' }}
       >
         <tr>
           <th align="center">
@@ -108,14 +107,13 @@ export default function Resume() {
       <b>EXPERIENCE</b>
       <br />
       <b>Software Development Engineer (Full Time) at Jio Platforms Limited</b>
+      <small style={{ float: 'right' }}>
+        <i> June 2019- Present</i>
+      </small>
       <br />
       <b>
         Technology Stack: Python, OpenCV, unittest, RabbitMQ, Swagger, Flask
       </b>
-      <br />
-      <small>
-        <i> June 2019- Present</i>
-      </small>
       <ul>
         <li>
           Worked on the creation of detection batch service for face recognition
@@ -134,13 +132,14 @@ export default function Resume() {
       </ul>
       <br />
       <br />
-      <b>Software Development Intern at KritiKal Solutions</b>
+      <b>
+        Software Development Intern at KritiKal Solutions
+        <small style={{ float: 'right' }}>
+          <i> May 2018- July 2018</i>
+        </small>
+      </b>
       <br />
       <b>Technology Stack: OpenCV, C++, PostgreSQL</b>
-      <br />
-      <small>
-        <i> May 2018- July 2018</i>
-      </small>
       <br />
       <ul>
         <li>
@@ -165,6 +164,7 @@ export default function Resume() {
       <br />
       <br />
       <b>ONLINE COURSE</b>
+      <br />
       <br />
       Completed a nanodegree course by Udacity on Introduction to Artificial
       Intelligence with Python.
