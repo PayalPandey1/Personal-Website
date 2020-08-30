@@ -5,7 +5,7 @@ export default function Resume() {
     <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
       <div style={{ textAlign: 'center' }}>
         <b>Payal Pandey</b>
-        <p>
+        <p style={{ wordWrap: 'break-word' }}>
           <b>Email:&nbsp;</b>
           <a href="mailto:payalpandey767@gmail.com">payalpandey767@gmail.com</a>
           &nbsp;|&nbsp;
